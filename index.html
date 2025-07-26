@@ -7,13 +7,20 @@
     <title>HTML Lesson 4</title>
     <link rel="shortcut icon" href="html-logo.svg" type="image/x-icon">
     <style>
-        div {
+        .brown {
             background: #412603;
             color: #ffffff;
             width: 500px;
-            height: 100px;
         }
-        
+
+        .span4ik {
+            color: #800080;
+        }
+
+        .span1 {
+            background: #3f283f;
+        }
+
         .block {
             background: #dda0dd;
             color: #000000;
@@ -25,20 +32,34 @@
             width: 100px;
             height: 100px;
         }
+
         .block3 {
             background: #800080;
         }
-
     </style>
 </head>
 
 <body>
 
     <div>
-        <div>хэллоу тичер, это мой первый сайт!
-        <div class="block2"></div>
+        <div class="brown">
+            хэллоу тичер, это <span class="span4ik">мой первый сайт!</span>
+            <div class="block2"></div>
+        </div>
+        <div class="block">
+            а здесь такие элементы:
+            <div>
+                <span class="span1"> элемент</span>
+                <span class="span1"> элемент</span>
+                <span class="span1"> элемент</span>
+                <span class="span1"> элемент</span>
+                <span class="span1"> элемент</span>
+                <span class="span1"> элемент</span>
+                <span class="span1"> элемент</span>
+                <span class="span1"> элемент</span>
+            </div>
+        </div>
     </div>
-    <div class="block">это было реально тяжко:</div>
-    </div>
-    </body>
+</body>
+
 </html>
