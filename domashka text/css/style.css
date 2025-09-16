@@ -1,16 +1,29 @@
-.some-text {
-    font-family: 'Open Sans' 'Arial' sans-serif;
+.example1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
     font-size: 20px;
     line-height: 30px;
-    text-align: left;
-    font-weight: 300px;
+    font-style: italic;
+    text-decoration: line-through;
+    /* зачеркнутый текст */
 }
 
-.some-text2 {
-    font-family: 'Julius Sans One'sans-serif;
-    text-align: left;
+/* 2. Второй абзац */
+.example2 {
+    text-transform: uppercase;
+    /* Все буквы большие */
+    font-weight: bold;
+    text-align: center;
 }
 
-.some-text3 {
-    text-transform: 
+/* 3. Расстояние между словами */
+.example3 {
+    word-spacing: 30px;
+    text-decoration: overline underline wavy purple;
+}
+
+/* 4. Расстояние между буквами */
+.example4 {
+    letter-spacing: 5px;
+    text-decoration: underline;
 }
