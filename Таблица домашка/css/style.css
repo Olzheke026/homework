@@ -1,0 +1,32 @@
+.t {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+    margin: 0;
+}
+
+.t caption {
+    padding: 4px;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+.t th,
+.t td {
+    border: 1px solid black;
+    padding: 4px;
+    margin: 0;
+}
+
+.red {
+    color: red;
+}
+
+caption {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+body {
+    font-family: sans-serif;
+}
