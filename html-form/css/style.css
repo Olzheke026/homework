@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+h2 {
+    margin-bottom: 0px;
+}
+
+fieldset {
+    max-width: 300px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    padding-top: 10px;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 100px;
+}
+
+input {
+    display: inline-block;
+    border-radius: 5px;
+}
