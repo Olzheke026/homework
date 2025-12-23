@@ -1,0 +1,52 @@
+html {
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+
+.logo {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+
+    color: black;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.phone {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
